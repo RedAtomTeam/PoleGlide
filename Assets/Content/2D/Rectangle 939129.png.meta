@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 37b0d482e0b376b419c0ad0c5e02e923
+guid: c8c5029f589bdfe4ea7d4b8286c74dd2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5993173569519109337
-    second: Group (2)_0
-  - first:
-      213: -7801026737845185256
-    second: Group (2)_1
+      213: -8508948506578491284
+    second: Rectangle 939129_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,35 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group (2)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 15
-        width: 15
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72bbd874468f3dca0800000000000000
-      internalID: -5993173569519109337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Group (2)_1
+      name: Rectangle 939129_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 14
-        height: 13
+        width: 206
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 815d967738f2db390800000000000000
-      internalID: -7801026737845185256
+      spriteID: c686c456a642ae980800000000000000
+      internalID: -8508948506578491284
       vertices: []
       indices: 
       edges: []
@@ -176,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Group (2)_0: -5993173569519109337
-      Group (2)_1: -7801026737845185256
+      Rectangle 939129_0: -8508948506578491284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
