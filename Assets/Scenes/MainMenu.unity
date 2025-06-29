@@ -265,6 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117268650}
   - component: {fileID: 117268651}
+  - component: {fileID: 117268652}
   m_Layer: 5
   m_Name: VolumeMusicsSlider
   m_TagString: Untagged
@@ -345,6 +346,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &117268652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117268649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed9c814b77ab3240a962cc89130417f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _propertyName: MusicVolume
 --- !u!1 &170037442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464358802}
   - component: {fileID: 464358803}
+  - component: {fileID: 464358804}
   m_Layer: 5
   m_Name: VolumeSoundsSlider
   m_TagString: Untagged
@@ -2570,6 +2585,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &464358804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464358801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41587e22aa66324dbb58be89de3dcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _propertyName: EffectsVolume
 --- !u!1 &507140887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,6 +4590,7 @@ GameObject:
   - component: {fileID: 1002211801}
   - component: {fileID: 1002211800}
   - component: {fileID: 1002211799}
+  - component: {fileID: 1002211802}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -4670,6 +4699,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002211797}
   m_CullTransparentMesh: 1
+--- !u!114 &1002211802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002211797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d315057476d05429e8f18db03931e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sliderMusic: {fileID: 117268651}
+  _sliderEffects: {fileID: 464358803}
 --- !u!1 &1003058792
 GameObject:
   m_ObjectHideFlags: 0
@@ -8925,7 +8968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _soundtracksSource: {fileID: 1664716292}
   _soundEffectsSource: {fileID: 1542086841}
-  _clips: []
+  _clips:
+  - {fileID: 8300000, guid: c6a9783535404a34a9dc411b34d4e7a5, type: 3}
 --- !u!1 &2070912770
 GameObject:
   m_ObjectHideFlags: 0
